@@ -1,6 +1,6 @@
 function showDivisionsWithDelay() {
     const cardDivisions = document.querySelectorAll(".card");
-    const delay = 5000;
+    const delay = 5;
 
     cardDivisions.forEach((card, index) => {
         setTimeout(() => {
